@@ -1,0 +1,6 @@
+[submodule "TelegramMQTTBot"]
+	path = TelegramMQTTBot
+	url = git@github.com:Marco9412/TelegramMQTTBot.git
+[submodule "Http2Mqtt"]
+	path = Http2Mqtt
+	url = git@github.com:Marco9412/Http2Mqtt.git
