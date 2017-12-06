@@ -28,7 +28,7 @@ fi
 
 echo "Starting..."
 cd "$APP1/src"
-python3 __main__.py resources/settings.json &> "$APP_HOME/telegramMQTTBotLog.txt" &
+python3 __main__.py ../resources/settings.json &> "$APP_HOME/telegramMQTTBotLog.txt" &
 echo $! > "/tmp/${APP1}.pid"
 cd "../../$APP2"
 python3 Http2Mqtt.py resources/settings.json &> "$APP_HOME/http2mqttlog.txt" &
